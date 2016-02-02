@@ -1,0 +1,19 @@
+body{
+  font-family: monospace;
+  font-style: normal;
+  font-variant: normal;
+}
+
+#title{
+  font-size: 70px;
+  text-align: center;
+}
+
+.nav{
+  display: inline;
+  text-align: center;
+}
+
+.social{
+  display: inline;
+}
