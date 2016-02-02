@@ -7,10 +7,15 @@ body{
 #title{
   font-size: 70px;
   text-align: center;
+  padding-top: 25px;
 }
 
 .nav{
-  display: inline;
+  text-align: center;
+}
+
+#note{
+  padding-top: 12px;
   text-align: center;
 }
 
