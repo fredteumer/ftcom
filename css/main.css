@@ -4,6 +4,10 @@ body{
   font-variant: normal;
 }
 
+.hov{
+  cursor: pointer;
+}
+
 #title{
   font-size: 70px;
   text-align: center;
@@ -14,11 +18,26 @@ body{
   text-align: center;
 }
 
+.lnk{
+  color: #3366BB;
+} 
+
+.lnk:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+
 #note{
   padding-top: 12px;
   text-align: center;
 }
 
-.social{
+#social{
   display: inline;
+}
+
+#c{
+  text-align: center;
+  color: #BBBBBB;
+  padding-top: 12px;
 }

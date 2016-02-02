@@ -4,29 +4,45 @@
     <meta charset="utf-8">
     <title>fredT.io</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Did you try turning it off and back on again?">
-    <meta name="keywords" content="Teumer, HTML, CSS, JS, JavaScript, HL7, Healthcare, Education, Tufts University, Tufts, Jumbos">
+    <meta name="description" content="Did you try turning it off and back on 
+      again?">
+    <meta name="keywords" content="Teumer, HTML, CSS, JS, JavaScript, JQuery, 
+      Angular, SQL, Database, Cache, HL7, Healthcare, Education, 
+      Tufts University, Tufts, Jumbos">
     <meta name="author" content="Frederick G. Teumer">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="text/javascript" href="js/script.js">
+    <script language="JavaScript" type="text/javascript" 
+      src="js/jquery-1.12.0.min.js"></script>
+    <script languate="JavaScript" type="text/javascript" 
+      src="js/script.js"></script>
   </head>
   <body>
     <div id="title" class="row">
       <div class="col-md-4"></div>
-      <div class="col-md-4">fredT.io</div>
+      <div class="col-md-4 hov" onclick="homeLoad()">fredT.io
+      </div>
       <div class="col-md-4"></div>
     </div>
-    <div id="links" class="nav row">
+    <div id="banner" class="row">
+    </div>
+    <div id="links" class="row nav">
       <div class="col-md-4"></div>
-      <div id="about" class="col-md-2"><a href="about.html">about</a></div>
-      <div id="contact" class="col-md-2"><a href="contact.html">contact</a></div>
+      <div id="about" class="col-md-2">
+        <a onclick="aboutLoad()" class="lnk">about</a>
+      </div>
+      <div id="contact" class="col-md-2">
+        <a onclick="contactLoad()" class="lnk">contact</a>
+      </div>
       <div class="col-md-4"></div>  
     </div>
-    <div id="note">
-      <p>tech, business, software, gaming. nintendo hard.</p>
+    <div id="content" class="row">
+      <div id="note">tech, business, software, gaming. nintendo hard.
+      </div>
     </div>
-    <div id="footer">
+    <div id="footer" class="row">
+      <p id="c">© 2016 fred teumer</p>
+      <div id="social"></div>
     </div>
   </body>
 </html>
