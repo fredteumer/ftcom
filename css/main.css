@@ -32,6 +32,22 @@ body{
   text-align: center;
 }
 
+#about_content{
+  padding-top: 12px;
+  text-align: center;
+  
+}
+
+#about_content_head{
+  
+}
+
+#about_content_list{
+  text-align: left;
+  border-style: solid;
+  list-style-type: none;
+}
+
 #social{
   display: inline;
 }
